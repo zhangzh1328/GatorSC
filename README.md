@@ -92,5 +92,3 @@ After training completes:
    ├── BCs-PCs_annotation_result.json
    ...
   ```
-
----
