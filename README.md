@@ -1,7 +1,5 @@
-
-
 # GatorSC: Multi-Scale Cell and Gene Graphs with Mixture-of-Experts Fusion for Single-Cell Transcriptomics
-
+![model](https://github.com/zhangzh1328/GatorSC/blob/main/GatorSC.png)
 
 ## Requirements
 - python : 3.9.12
@@ -19,11 +17,11 @@
 ```bash
 .
 ├── main.py            # Main training and evaluation loop
-├── GatorSC.py           # Model architecture and loss functions
+├── GatorSC.py         # Model architecture and loss functions
 ├── util.py            # Utility functions (seed setup, metrics)
 ├── data/              # Folder for .h5ad input files
 ├── saved_models/      # Folder to save trained models
-└── result.json        # Evaluation results output
+└── saved_results/     # Evaluation results output
 ```
 
 ## Usage
@@ -85,28 +83,18 @@ After training completes:
    ├── BCs-PCs_model_annotation_1_dict
    ...
   ```
-* Evaluation results (accuracy, clustering, etc.): `result.json`
+* Evaluation results (clustering/imputation/annotation): `saved_results/`
 
-  ```json
-  {
-      "BCs-PCs": {'acc': , 'nmi': , 'ari': , 'homo': }
-  }
+  ```
+  saved_models/
+   ├── BCs-PCs_clustering_result.json
+   ├── BCs-PCs_imputation_result.json
+   ├── BCs-PCs_annotation_result.json
+   ...
   ```
 
 ---
 
 ## Datasets
 
-
-##  Cross-Validation Strategy
-
-To ensure robustness and generalizability across different tissue sections and data distributions, GatorST employs a **multi-run cross-validation approach**.
-
-Specifically:
-
-* For each dataset, the data loader (`loader_construction`) partitions samples into **train**, **validation**, and **test** sets using fixed proportions (80% / 10% / 10%).
-* This process is **repeated across 10 random seeds** (`for run in range(10)`) to assess consistency.
-* Each run reinitializes the model and randomizes data splits, ensuring that results reported in `result.json` reflect **average and variance** across independent splits.
-
-This strategy provides a fair approximation of cross-validation while maintaining efficiency for large-scale ST datasets.
 
