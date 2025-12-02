@@ -27,7 +27,7 @@
 
 ### **1. Prepare your input data**
 
-Place your **.h5ad** spatial transcriptomics datasets in the `./data/` directory.
+Place your **.h5ad** datasets in the `./data/` directory.
 
 Each `.h5ad` file should contain:
 
