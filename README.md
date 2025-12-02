@@ -1,5 +1,4 @@
 # GatorSC: Multi-Scale Cell and Gene Graphs with Mixture-of-Experts Fusion for Single-Cell Transcriptomics
-![model](https://github.com/zhangzh1328/GatorSC/blob/main/GatorSC.pdf)
 
 ## Requirements
 - python : 3.9.12
@@ -47,6 +46,7 @@ data/
  ├── BCs-PCs.h5ad
  ├── Chen.h5ad
  └── Emont.h5ad
+ ...
 ```
 
 ---
