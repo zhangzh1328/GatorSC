@@ -45,7 +45,7 @@ Example dataset folder:
 data/
  ├── BCs-PCs.h5ad
  ├── Chen.h5ad
- └── Emont.h5ad
+ ├── Emont.h5ad
  ...
 ```
 
