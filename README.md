@@ -64,7 +64,7 @@ python main.py
 * `epochs`: number of training epochs per run 
 * `batch_size`: number of samples per batch
 * `lr`: learning rate
-* `task`: application task ("clustering"/"imputation"/"annotation")
+* `task`: application task (clustering/imputation/annotation)
 
 You can modify these using `--epochs --batch_size --lr --task`
 
