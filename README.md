@@ -96,5 +96,22 @@ After training completes:
 ---
 
 ## Datasets
-
-
+- BCs-PCs : https://treg-gut-niches.cellgeni.sanger.ac.uk
+- Chen : https://cellxgene.cziscience.com/collections/10ec9198-584e-4a7e-8a24-4a332915a4ef
+- Emont : https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE176171
+- Global : https://treg-gut-niches.cellgeni.sanger.ac.uk
+- HTAPP-213-SMP-6752 : https://cellxgene.cziscience.com/collections/a96133de-e951-4e2d-ace6-59db8b3bfb1d
+- HTAPP-313-SMP-932 : https://cellxgene.cziscience.com/collections/a96133de-e951-4e2d-ace6-59db8b3bfb1d
+- HTAPP-783-SMP-4081 : https://cellxgene.cziscience.com/collections/a96133de-e951-4e2d-ace6-59db8b3bfb1d
+- Quake-Diaphragm : https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE109774
+- Quake-Limb Muscle : https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE109774
+- Quake-Lung : https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE109774
+- Quake-Trachea : https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE109774
+- Zeisel : https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE60361
+- Mouse ES : https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE65525
+- Pancreas : https://ndownloader.figshare.com/files/36086813
+- AMB3 : https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115746
+- AMB16 : https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115746
+- AMB92 : https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115746
+- TM : https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE109774
+- Zheng : https://figshare.com/articles/dataset/pbmc68k_h5ad/14465568?file=27686886
