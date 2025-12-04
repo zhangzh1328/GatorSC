@@ -1,5 +1,5 @@
 # GatorSC: Multi-Scale Cell and Gene Graphs with Mixture-of-Experts Fusion for Single-Cell Transcriptomics
-# 
+
 ## Requirements
 - python : 3.9.12
 - scanpy : 1.10.3
