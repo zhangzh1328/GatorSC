@@ -17,7 +17,7 @@
 .
 ├── main.py            # Main training and evaluation loop
 ├── GatorSC.py         # Model architecture and loss functions
-├── util.py            # Utility functions (seed setup, metrics)
+├── utils.py            # Utility functions (seed setup, metrics)
 ├── data/              # Folder for .h5ad input files
 ├── saved_models/      # Folder to save trained models
 └── saved_results/     # Evaluation results output
